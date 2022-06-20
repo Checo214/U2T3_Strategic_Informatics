@@ -20,8 +20,6 @@ class Footer extends HTMLElement {
     
         <style>
             #table {
-    
-                position: absolute;
                 background-color: rgb(224, 224, 224);
                 top: 600px;
             }
@@ -43,7 +41,7 @@ class Footer extends HTMLElement {
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td class="text-center">
+                                    <td class="text-center" style="font-weight: 800;">
                                         Dirección
                                     </td>
                                 </tr>
@@ -73,7 +71,7 @@ class Footer extends HTMLElement {
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td class="text-center">
+                                    <td class="text-center" style="font-weight: 800;">
                                         Correo electronico
                                     </td>
                                 </tr>
@@ -99,7 +97,7 @@ class Footer extends HTMLElement {
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td class="text-center">
+                                    <td class="text-center" style="font-weight: 800;">
                                         Telefono
                                     </td>
                                 </tr>
@@ -124,7 +122,7 @@ class Footer extends HTMLElement {
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td class="text-center">
+                                    <td class="text-center" style="font-weight: 800;">
                                         Horario
                                     </td>
                                 </tr>
