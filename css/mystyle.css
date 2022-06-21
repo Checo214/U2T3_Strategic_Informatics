@@ -26,7 +26,7 @@
     color: #6B6B6B;
 }
 
-#navbarNav lia:hover {
+#navbarNav li a:hover {
     color: white;
 }
 
@@ -38,4 +38,46 @@
 #navbarNav li:hover {
     background-color: #1E5ABE;
     border-radius: 10px;
+}
+
+#segi_g {
+    font-size: 160px;
+    font-weight: 700;
+    color: rgba(107, 107, 107, 0.153);
+    text-align: center;
+    margin-top: -30px;
+}
+
+#segi_a {
+    color: #4F4F4F;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 34px;
+}
+
+#col_segi_a {
+    position: absolute;
+    margin-top: 5.4%;
+    margin-left: 20%;
+    text-align: end;
+}
+
+.sub_text_segi {
+    margin-top: -1rem !important;
+    margin-left: 6rem !important;
+    margin-right: 6rem !important;
+}
+
+.sub_text_segi p {
+    font-size: 20px !important;
+    color: #8A8A8A;
+}
+
+.container_cards_segi {
+    margin-top: 80px !important;
+}
+
+.container_cards_segi .card {
+    padding: 10%;
+    height: 500px;
 }
