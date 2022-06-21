@@ -1,10 +1,10 @@
 class Footer extends HTMLElement {
-  constructor() {
-    super();
-  }
+    constructor() {
+        super();
+    }
 
-  connectedCallback() {
-    this.innerHTML = `
+    connectedCallback() {
+        this.innerHTML = `
     <!doctype html>
     <html lang="en">
     
@@ -23,21 +23,22 @@ class Footer extends HTMLElement {
                 background-color: rgb(224, 224, 224);
                 top: 600px;
             }
+            
         </style>
     
         <title>Soluciones Estratégicas de Gestión de Inventarios</title>
     </head>
     
     <body>
-        <div id="table" class="container-fluid">
+        <div id="table" class="container-fluid" style="padding: 2%;">
             <div class="row">
                 <div class="col-md-3">
                     <div class="container">
-                        <table class="">
+                        <table class="mx-5">
                             <tbody>
                                 <tr>
                                     <td>
-                                        <img src="assets/icons/home.png" height="50" width="50" class="mx-auto d-block">
+                                        <img src="assets/icons/hogar.png" height="50" width="50" class="mx-auto d-block">
                                     </td>
                                 </tr>
                                 <tr>
@@ -46,14 +47,8 @@ class Footer extends HTMLElement {
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>
-                                        probando contenido
-                                        probando contenido
-                                        probando contenido
-                                        probando contenido
-                                        probando contenido
-                                        probando contenido
-    
+                                    <td class="text-center">
+                                        Av. Adolfo López Mateos Ote. 1001, San Luís, 20250 Aguascalientes, Ags.
                                     </td>
                                 </tr>
                             </tbody>
@@ -63,7 +58,7 @@ class Footer extends HTMLElement {
                 </div>
                 <div class="col-md-3">
                     <div class="container">
-                        <table>
+                        <table class="mx-5">
                             <tbody>
                                 <tr>
                                     <td>
@@ -77,9 +72,7 @@ class Footer extends HTMLElement {
                                 </tr>
                                 <tr>
                                     <td>
-                                        probando contenido
-                                        probando contenido
-                                        probando contenido
+                                        segi.inventarios@gmail.com
                                     </td>
                                 </tr>
                             </tbody>
@@ -88,11 +81,11 @@ class Footer extends HTMLElement {
                 </div>
                 <div class="col-md-3">
                     <div class="container">
-                        <table>
+                        <table class="mx-auto">
                             <tbody>
                                 <tr>
                                     <td>
-                                        <img src="assets/icons/phone-call.png" height="50" width="50"
+                                        <img src="assets/icons/llamada-telefonica.png" height="50" width="50"
                                             class="mx-auto d-block">
                                     </td>
                                 </tr>
@@ -102,10 +95,8 @@ class Footer extends HTMLElement {
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>
-                                        probando contenido
-                                        probando contenido
-                                        probando contenido
+                                    <td>    
+                                        +52 (449) 329 6380                                   
                                     </td>
                                 </tr>
                             </tbody>
@@ -114,11 +105,11 @@ class Footer extends HTMLElement {
                 </div>
                 <div class="col-md-3">
                     <div class="container">
-                        <table>
+                        <table class="mx-5">
                             <tbody>
                                 <tr>
                                     <td>
-                                        <img src="assets/icons/time.png" height="50" width="50" class="mx-auto d-block">
+                                        <img src="assets/icons/reloj.png" height="50" width="50" class="mx-auto d-block">
                                     </td>
                                 </tr>
                                 <tr>
@@ -127,10 +118,8 @@ class Footer extends HTMLElement {
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>
-                                        probando contenido
-                                        probansdo contenido
-                                        probando contenido
+                                    <td class="text-center">
+                                        Lunes a Viernes de 8:00 AM 18:00 PM
                                     </td>
                                 </tr>
                             </tbody>
@@ -149,7 +138,7 @@ class Footer extends HTMLElement {
     
     </html>
     `;
-  }
+    }
 }
 
 window.customElements.define("footer-component", Footer);

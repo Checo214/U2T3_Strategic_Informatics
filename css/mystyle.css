@@ -81,3 +81,67 @@
     padding: 10%;
     height: 500px;
 }
+
+.mini_title_nue_val {
+    color: rgba(65, 81, 102, 65%);
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 0%;
+}
+
+.mini_title_nue_visi {
+    color: black;
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 0%;
+}
+
+.mini_title_nue_nues {
+    color: rgba(65, 81, 102, 65%);
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 0%;
+}
+
+.title_nue_val {
+    color: black;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.title_nue_visi {
+    color: white;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.title_nue_misio {
+    color: black;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.text_nue_val {
+    color: rgba(65, 81, 102, 65%);
+    font-size: 16px;
+    padding-left: 5%;
+}
+
+.text_nue_visi {
+    color: white;
+    font-size: 16px;
+}
+
+.text_nue_val li {
+    margin-bottom: 10px;
+}
+
+#form_contact input {
+    background-color: #F0F0F0;
+    border-radius: 8px;
+}
+
+#form_contact textarea {
+    background-color: #F0F0F0;
+    border-radius: 8px;
+}
