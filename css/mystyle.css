@@ -4,7 +4,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 500px;
+    height: 600px;
 }
 
 #logo_segi {
@@ -19,6 +19,7 @@
     padding-right: 5rem;
     position: fixed;
     width: 100%;
+    background: white;
 }
 
 #navbarNav li a {
